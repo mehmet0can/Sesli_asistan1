@@ -31,7 +31,7 @@ if os.name == 'nt':
     speech.save(name + ".mp3")
 
 # Eğer ki işletim sistemi Linux yada MAC OS ise Documents klasörüne giderek bir ses klasörü
-    # oluşturuyorum ve tüm eklemeri orada gerçekleştiriyorum.
+# oluşturuyorum ve tüm eklemeri orada gerçekleştiriyorum.
 elif os.name == "posix":
     subprocess.call(["cd Documents"])
     subprocess.call(["mkdir voice_file"])
